@@ -31,7 +31,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("𝙃𝙄𝙄 ┈━═𝙈𝙮 𝙁𝙧𝙞𝙚𝙣𝙙═━┈😎\n\n I Am A Bot For Download Links From Your .TXT File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me Hidden Command And Then Follow Few Steps..r@j❤️")
+    editable = await m.reply_text("𝙃𝙄")
 
 
 @bot.on_message(filters.command("stop"))
@@ -40,9 +40,9 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["naruto"]))
+@bot.on_message(filters.command(["rajput"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('𝙏𝙤 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙖 𝙏𝙓𝙏 𝙛𝙞𝙡𝙚 𝙨𝙚𝙣𝙙 𝙝𝙚𝙧𝙚 ⚡️')
+    editable = await m.reply_text('send txt files to downloading')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await bot.send_document(-1002024579457, x)
@@ -102,7 +102,8 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("Now Enter A Caption to add caption on your uploaded file\n ex: @sccwaleyarr")
+    await editable.edit("Now Enter A Caption to add caption on your uploaded file\n ex: 𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛
+👉👉@TargetUPSC_2026")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -112,7 +113,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("Now send the Thumb url/nEg » https://graph.org/file/aaee4cae31bb9c48621e2.jpg \n Or if don't want thumbnail send = no")
+    await editable.edit("Now send the Thumb url/nEg » https://graph.org/file/e453a252ac9bb3a92506a.jpg \n Or if don't want thumbnail send = no")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -164,8 +165,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'[📽️] 𝙑𝙞𝙙_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}.mkv\n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤ {MR}'
-                cc1 = f'[📁] 𝙋𝙙𝙛_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}.pdf \n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤ {MR}'
+                cc = f'[⏭️] 𝙑𝙞𝙙_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}.mkv\n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤𝗧𝗢𝗡𝗬 𝗦𝗧𝗔𝗥𝗞 \n**https://adrinolinks.com/3fvJK**'
+                cc1 = f'[📁] 𝙋𝙙𝙛_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}.pdf \n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤𝗧𝗢𝗡𝗬 𝗦𝗧𝗔𝗥𝗞 \n**https://adrinolinks.com/3fvJK**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -191,7 +192,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"⬇️𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂⬇️\n\n📝Name » {name}\n❄Quality » {raw_text2}\n\n🔗URL » {url}"
+                    Show = f"𝐁𝐎𝐓 𝐌𝐀𝐃𝐄 𝐁𝐘 ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n\n⬇️𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂⬇️\n\n📝Name » {name}\n❄Quality » {raw_text2}\n\n🔗URL » {url}"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
