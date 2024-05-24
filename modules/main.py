@@ -102,8 +102,7 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("Now Enter A Caption to add caption on your uploaded file\n ex: ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛"
-👉👉@TargetUPSC_2026")
+    await editable.edit("NOW ENTER YOUR NANE TO ADD UPLOADING FILES\n ex: ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
