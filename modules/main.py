@@ -164,8 +164,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'[⏭️] 𝙑𝙞𝙙_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}.mkv\n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤𝗧𝗢𝗡𝗬 𝗦𝗧𝗔𝗥𝗞 \n**https://adrinolinks.com/3fvJK**'
-                cc1 = f'[📁] 𝙋𝙙𝙛_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}.pdf \n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤𝗧𝗢𝗡𝗬 𝗦𝗧𝗔𝗥𝗞 \n**https://adrinolinks.com/3fvJK**'
+                cc = f'{MR}\n[⏭️] 𝙑𝙞𝙙_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n**👉👉@TargetUPSC_2026**'
+                cc1 = f'{MR}\n[📁] 𝙋𝙙𝙛_𝙄𝘿 ➤ {str(count).zfill(3)}.\n𝙏𝙄𝙏𝙇𝙀 ➤ {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n𝘽𝘼𝙏𝘾𝙃 ➤ {raw_text0}\n\n𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 ➤๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n**👉👉@TargetUPSC_2026**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -191,7 +191,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"𝐁𝐎𝐓 𝐌𝐀𝐃𝐄 𝐁𝐘 ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n\n⬇️𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂⬇️\n\n📝Name » {name}\n❄Quality » {raw_text2}\n\n🔗URL » {url}"
+                    Show = f"𝐁𝐎𝐓 𝐌𝐀𝐃𝐄 𝐁𝐘 ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n\n⬇️𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂⬇️\n\n📝Name » {name}\n❄Quality » {raw_text2}\n\n🔗URL » {MR}{url}\n{MR}"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
